@@ -125,9 +125,9 @@ function Layout({ children }: { children: React.ReactNode }) {
       <header className="remix-app__header">
         <div className="container remix-app__header-content">
           <Link to="/" title="Remix" className="remix-app__header-home-link">
-            <RemixLogo />
+            {/* <RemixLogo /> */} DownPressUp
           </Link>
-          <nav aria-label="Main navigation" className="remix-app__header-nav">
+          {/* <nav aria-label="Main navigation" className="remix-app__header-nav">
             <ul>
               <li>
                 <Link to="/">Home</Link>
@@ -139,7 +139,7 @@ function Layout({ children }: { children: React.ReactNode }) {
                 <a href="https://github.com/remix-run/remix">GitHub</a>
               </li>
             </ul>
-          </nav>
+          </nav> */}
         </div>
       </header>
       <div className="remix-app__main">
